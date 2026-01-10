@@ -59,12 +59,6 @@ This is a **group-based academic project** developed following software engineer
 
 ---
 
-## 📈 Project Status
-🚧 **Ongoing**  
-Core functionalities are under development with continuous enhancements planned.
-
----
-
 ## 📚 Learning Outcomes
 - Practical experience with the MERN stack  
 - Understanding of full-stack application development  
