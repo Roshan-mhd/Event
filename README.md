@@ -2,9 +2,9 @@
 
 ## 📌 Project Overview
 The **Event Planning & Management System** is a web-based application developed as part of the **Information Technology Project (ITP)** module.  
-The system aims to streamline the planning, organization, and management of events by providing a centralized and efficient digital platform.
+The system is designed to streamline the planning, organization, and management of events through a centralized and efficient digital platform.
 
-This project addresses real-world challenges in event planning such as manual coordination, lack of transparency, and inefficient communication.
+It addresses real-world challenges such as manual coordination, lack of transparency, and inefficient communication in event planning.
 
 ---
 
@@ -12,16 +12,15 @@ This project addresses real-world challenges in event planning such as manual co
 - Digitize the event planning process  
 - Improve coordination among event organizers and participants  
 - Reduce manual effort and human errors  
-- Enable real-time event tracking and updates  
-- Ensure scalability and usability for different event types  
+- Provide real-time event updates and tracking  
+- Ensure scalability and performance for various event types  
 
 ---
 
 ## 🚩 Problem Statement
-Traditional event planning relies heavily on spreadsheets, messaging applications, and manual documentation.  
-These methods often result in miscommunication, scheduling conflicts, and poor task tracking.
+Traditional event planning methods rely on spreadsheets, messaging applications, and manual documentation, which often lead to miscommunication, scheduling conflicts, and poor task tracking.
 
-The proposed system provides a structured and centralized solution to overcome these limitations.
+This system offers a structured and centralized solution to overcome these limitations.
 
 ---
 
@@ -35,41 +34,42 @@ The proposed system provides a structured and centralized solution to overcome t
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Technology Stack (MERN)
 **Frontend**
+- React.js  
 - HTML  
 - CSS  
 - JavaScript  
 
 **Backend**
-- Server-side application logic  
-- RESTful APIs  
+- Node.js  
+- Express.js  
 
 **Database**
-- Relational database management system  
+- MongoDB  
 
 **Tools**
 - Git and GitHub for version control  
-- Documentation and collaboration tools  
+- RESTful APIs  
 
 ---
 
 ## 👨‍💻 Team Collaboration
-This is a **group-based academic project** developed using software engineering best practices, including requirement analysis, system design, development, testing, and documentation.
+This is a **group-based academic project** developed following software engineering best practices, including requirement analysis, system design, development, testing, and documentation.
 
 ---
 
 ## 📈 Project Status
 🚧 **Ongoing**  
-Core features are currently under development, with continuous improvements and enhancements planned.
+Core functionalities are under development with continuous enhancements planned.
 
 ---
 
 ## 📚 Learning Outcomes
-- Hands-on experience with the full software development lifecycle  
-- Improved teamwork and project coordination skills  
-- Practical exposure to real-world problem solving  
-- Application of software engineering concepts  
+- Practical experience with the MERN stack  
+- Understanding of full-stack application development  
+- Improved teamwork and project management skills  
+- Exposure to real-world problem-solving scenarios  
 
 ---
 
