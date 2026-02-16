@@ -14,7 +14,7 @@ const Navbar = () => {
 
   // Update effect dependencies to include logout
   useEffect(() => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem("token");
     if (!token && currentUser) {
       logout();
     }
@@ -37,16 +37,19 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="logo">
         <Link to="/">
-          <img src={logo} alt="Brand Logo" className="logo-img" width={50}/>
+          <img src={logo} alt="Brand Logo" className="logo-img" width={50} />
         </Link>
-        <Link to="/"> <p>Ruchira Liyanagamage<br></br> Bridal Salon</p></Link>
+        <Link to="/">
+          {" "}
+          <p>Jubilix</p>
+        </Link>
       </div>
       <div className="nav-links">
         <Link to="/">Home</Link>
-        <ScrollLink 
-          to="services" 
-          smooth={true} 
-          duration={500} 
+        <ScrollLink
+          to="services"
+          smooth={true}
+          duration={500}
           offset={-70} // Adjust offset for fixed navbar
         >
           Services
@@ -57,13 +60,21 @@ const Navbar = () => {
       <div className="nav-buttons">
         {currentUser ? (
           <>
-            <Link to={getDashboardLink()}><button className="dashboard-btn">My Profile</button></Link>
-            <button className="logout-btn" onClick={handleLogout}>Logout</button>
+            <Link to={getDashboardLink()}>
+              <button className="dashboard-btn">My Profile</button>
+            </Link>
+            <button className="logout-btn" onClick={handleLogout}>
+              Logout
+            </button>
           </>
         ) : (
           <>
-            <Link to='/login'><button className="login-btn">Login</button></Link>
-            <Link to='/register'><button className="signup-btn">Sign Up</button></Link>
+            <Link to="/login">
+              <button className="login-btn">Login</button>
+            </Link>
+            <Link to="/register">
+              <button className="signup-btn">Sign Up</button>
+            </Link>
           </>
         )}
       </div>

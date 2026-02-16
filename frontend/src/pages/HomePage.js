@@ -39,7 +39,8 @@ const HomePage = () => {
                       stroke-width="2"
                       stroke-linecap="round"
                       stroke-linejoin="round"
-                      class="lucide lucide-arrow-right">
+                      class="lucide lucide-arrow-right"
+                    >
                       <path d="M5 12h14" />
                       <path d="m12 5 7 7-7 7" />
                     </svg>
@@ -65,10 +66,11 @@ const HomePage = () => {
                       fontFamily: "judson",
                       fontSize: "40px",
                       lineHeight: "50px",
-                    }}>
+                    }}
+                  >
                     Our Journey In <br></br>Salon Industry
                   </p>
-                  At Ruchira Liyanagamage Brides, we believe <br></br>
+                  At Jubilix, we believe <br></br>
                   beauty is an art. Our team of skilled professionals <br></br>
                   is dedicated to providing the highest quality hair, <br></br>
                   makeup, and skincare services to help you look and <br></br>
@@ -102,7 +104,8 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-scissors">
+                    class="lucide lucide-scissors"
+                  >
                     <circle cx="6" cy="6" r="3" />
                     <path d="M8.12 8.12 12 12" />
                     <path d="M20 4 8.12 15.88" />
@@ -126,7 +129,8 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-eye-closed">
+                    class="lucide lucide-eye-closed"
+                  >
                     <path d="m15 18-.722-3.25" />
                     <path d="M2 8a10.645 10.645 0 0 0 20 0" />
                     <path d="m20 15-1.726-2.05" />
@@ -135,8 +139,8 @@ const HomePage = () => {
                   </svg>
                   <h1>Makeup</h1>
                   <p>
-                    Flawless makeup for every occasion enhancing your natural beauty
-                    with perfection!
+                    Flawless makeup for every occasion enhancing your natural
+                    beauty with perfection!
                   </p>
                 </div>
                 <div className="card1">
@@ -150,13 +154,14 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-shirt">
+                    class="lucide lucide-shirt"
+                  >
                     <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
                   </svg>
                   <h1>Dressing</h1>
                   <p>
-                    Elegance meets style! Find the perfect outfit to shine on your
-                    special day.
+                    Elegance meets style! Find the perfect outfit to shine on
+                    your special day.
                   </p>
                 </div>
                 <div className="card1">
@@ -170,7 +175,8 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-camera">
+                    class="lucide lucide-camera"
+                  >
                     <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z" />
                     <circle cx="12" cy="13" r="3" />
                   </svg>
@@ -191,7 +197,8 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-hotel">
+                    class="lucide lucide-hotel"
+                  >
                     <path d="M10 22v-6.57" />
                     <path d="M12 11h.01" />
                     <path d="M12 7h.01" />
@@ -205,8 +212,8 @@ const HomePage = () => {
                   </svg>
                   <h1>Hotels</h1>
                   <p>
-                    Discover top rated hotels that offer comfort and luxury for your
-                    event.
+                    Discover top rated hotels that offer comfort and luxury for
+                    your event.
                   </p>
                 </div>
                 <div className="card1">
@@ -220,7 +227,8 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-guitar">
+                    class="lucide lucide-guitar"
+                  >
                     <path d="m11.9 12.1 4.514-4.514" />
                     <path d="M20.1 2.3a1 1 0 0 0-1.4 0l-1.114 1.114A2 2 0 0 0 17 4.828v1.344a2 2 0 0 1-.586 1.414A2 2 0 0 1 17.828 7h1.344a2 2 0 0 0 1.414-.586L21.7 5.3a1 1 0 0 0 0-1.4z" />
                     <path d="m6 16 2 2" />
@@ -237,26 +245,27 @@ const HomePage = () => {
             </div>
             <h1 className="discountH1">Special Offers & Discount</h1>
             <img className="eventimg" src={event} alt="event" height={500} />
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             <h2>⭐️⭐️⭐️⭐️⭐️</h2>
           </section>
           <section className="sec5">
             <div className="services">
-              
               <h2>
                 Transform Your Life's Biggest Moments<br></br> With Our Services
               </h2>
               <p>
                 Discover personalized styling solutions tailored to make your
                 special moments unforgettable. <br></br>
-                From weddings to professional photoshoots, we bring your vision to
-                life<br></br>
+                From weddings to professional photoshoots, we bring your vision
+                to life<br></br>
                 with expert care and creativity.
               </p>
               <a href="/booking">
                 <button
                   id="plan-btn"
-                  style={{ backgroundColor: "#12131A", color: "#fcfaf8" }}>
+                  style={{ backgroundColor: "#12131A", color: "#fcfaf8" }}
+                >
                   Book An Event &nbsp;&nbsp;{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -268,16 +277,14 @@ const HomePage = () => {
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-arrow-right">
+                    class="lucide lucide-arrow-right"
+                  >
                     <path d="M5 12h14" />
                     <path d="m12 5 7 7-7 7" />
                   </svg>
                 </button>
-                
               </a>
-              
             </div>
-            
           </section>
         </div>
       </div>
