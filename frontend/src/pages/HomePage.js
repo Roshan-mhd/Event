@@ -144,6 +144,7 @@ const HomePage = () => {
                   </p>
                 </div>
                 <div className="card1">
+                  <div class="icon-utensils"></div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -154,14 +155,19 @@ const HomePage = () => {
                     stroke-width="1.75"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    class="lucide lucide-shirt"
+                    class="lucide lucide-utensils"
                   >
-                    <path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z" />
+                    <path d="M3 2v7c0 2.2 1.8 4 4 4v9" />
+                    <path d="M7 2v20" />
+                    <path d="M21 15V2" />
+                    <path d="M18 15V2" />
+                    <path d="M18 8h3" />
+                    <path d="M21 22v-7" />
                   </svg>
-                  <h1>Dressing</h1>
+                  <h1>Catering</h1>
                   <p>
-                    Elegance meets style! Find the perfect outfit to shine on
-                    your special day.
+                    “Elegance meets flavor! Crafted to delight every bite of
+                    your special day.”
                   </p>
                 </div>
                 <div className="card1">
