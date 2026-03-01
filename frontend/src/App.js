@@ -37,6 +37,8 @@ import ReviewPage from "./pages/ReviewPage";
 import ReviewReportPage from "./pages/ReviewReportPage";
 import ServiceProviderPackages from './pages/ServiceProviderPackages';
 import NotificationsPage from './pages/NotificationsPage';
+import CateringPage from "./pages/CateringPage";
+import AuditoriumPage from "./pages/AuditoriumPage";
 
 function App() {
   return (
@@ -105,6 +107,8 @@ function App() {
             <Route path="/add-review" element={<ReviewPage />} />
             <Route path="/reviews" element={<ReviewListPage />} />
             <Route path="/review-report" element={<ReviewReportPage />} />
+            <Route path="/catering" element={<CateringPage />} />
+            <Route path="/auditorium" element={<AuditoriumPage />} />
 
             <Route 
               path="/service-provider/notifications" 

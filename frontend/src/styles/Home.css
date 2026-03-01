@@ -178,6 +178,16 @@ p {
   min-width: 200px;
 }
 
+.card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.card-link .card1:hover {
+  transform: translateY(-4px);
+}
+
 .card1 h1 {
   color: #12131a;
   font-weight: bold;

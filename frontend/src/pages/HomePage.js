@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Home.css";
 import brideImage from "../assets/bride.png";
 import salonImage from "../assets/salon.jpg";
@@ -143,33 +144,35 @@ const HomePage = () => {
                     beauty with perfection!
                   </p>
                 </div>
-                <div className="card1">
-                  <div class="icon-utensils"></div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-utensils"
-                  >
-                    <path d="M3 2v7c0 2.2 1.8 4 4 4v9" />
-                    <path d="M7 2v20" />
-                    <path d="M21 15V2" />
-                    <path d="M18 15V2" />
-                    <path d="M18 8h3" />
-                    <path d="M21 22v-7" />
-                  </svg>
-                  <h1>Catering</h1>
-                  <p>
-                    “Elegance meets flavor! Crafted to delight every bite of
-                    your special day.”
-                  </p>
-                </div>
+                <Link to="/catering" className="card-link">
+                  <div className="card1">
+                    <div class="icon-utensils"></div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-utensils"
+                    >
+                      <path d="M3 2v7c0 2.2 1.8 4 4 4v9" />
+                      <path d="M7 2v20" />
+                      <path d="M21 15V2" />
+                      <path d="M18 15V2" />
+                      <path d="M18 8h3" />
+                      <path d="M21 22v-7" />
+                    </svg>
+                    <h1>Catering</h1>
+                    <p>
+                      Elegant catering menus crafted to delight every bite of
+                      your special celebration.
+                    </p>
+                  </div>
+                </Link>
                 <div className="card1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -192,36 +195,38 @@ const HomePage = () => {
                     moment beautifully!
                   </p>
                 </div>
-                <div className="card1">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="1.75"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="lucide lucide-hotel"
-                  >
-                    <path d="M10 22v-6.57" />
-                    <path d="M12 11h.01" />
-                    <path d="M12 7h.01" />
-                    <path d="M14 15.43V22" />
-                    <path d="M15 16a5 5 0 0 0-6 0" />
-                    <path d="M16 11h.01" />
-                    <path d="M16 7h.01" />
-                    <path d="M8 11h.01" />
-                    <path d="M8 7h.01" />
-                    <rect x="4" y="2" width="16" height="20" rx="2" />
-                  </svg>
-                  <h1>Hotels</h1>
-                  <p>
-                    Discover top rated hotels that offer comfort and luxury for
-                    your event.
-                  </p>
-                </div>
+                <Link to="/auditorium" className="card-link">
+                  <div className="card1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="lucide lucide-hotel"
+                    >
+                      <path d="M10 22v-6.57" />
+                      <path d="M12 11h.01" />
+                      <path d="M12 7h.01" />
+                      <path d="M14 15.43V22" />
+                      <path d="M15 16a5 5 0 0 0-6 0" />
+                      <path d="M16 11h.01" />
+                      <path d="M16 7h.01" />
+                      <path d="M8 11h.01" />
+                      <path d="M8 7h.01" />
+                      <rect x="4" y="2" width="16" height="20" rx="2" />
+                    </svg>
+                    <h1>Auditorium</h1>
+                    <p>
+                      Find spacious auditoriums with modern facilities to host
+                      your event seamlessly.
+                    </p>
+                  </div>
+                </Link>
                 <div className="card1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
